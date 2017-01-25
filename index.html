@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Why Responsive Web Design</title>
+    <link rel="stylesheet" type="text/css" href="style/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="page-header">
+          <h1>What is Responsive Web Design?</h1>
+        </div>
+      </header>
+      <main>
+        <div id="content">
+          <p>Responsive web design is a way of designing and developing web content with one thing in mind:  you never know exactly how a user will access the site.  Will they access from a desktop or mobile device?  Will the user have the content magnified or reduced?  Will they be viewing the content in landscape or portrait mode?</p>
+          <p>There is no way to completely predict user behavior, which makes having a static design that will look good 100% of the time completely impossible.</p>
+          <p>Responsive web design, however, allows the site to be flexible to how users access the site based on the device, screen orientation, browser window size, view size, platform and many other factors by using flexible grids and layouts, images, HTML and CSS.  Thus, solving the problem of “how will users view this content?”  Instead of using static content that is inflexible or clunky, responsive design fluidly and seamlessly adjust to the size of the canvas at hand, bringing a delightful user experience to life on the web.  So, get on board and let us know how we can help you make your site exciting and usable for your clients by submitting your information below today!</p>
+        </div>
+      </main>
+    
+      <form>
+        <h2>Tell me More!</h2>
+        <div class="form-group">
+          <label class="control-label">Full Name:</label>
+            <input type="text" class="form-control" id="inputname" name="name" placeholder="Enter your first and last name" required>
+        </div>
+        <div class="form-group">
+          <label class="control-label">E-Mail Address:</label>
+              <input type="email" class="form-control" id="inputemail" name="email" placeholder="Enter your email address" required>
+        </div>
+        <div class="form-group">
+          <label class="control-label">Mobile Number:</label>
+              <input type="tel" class="form-control" id="inputmobile" name="phone" placeholder="Enter your mobile number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required>                                                                                                                   
+              <span id="helpblock" class="help-block">Example:  206-555-1212</span>
+        </div>
+        <div class="form-group">
+          <label class="control-label">Check all the apply:</label>
+          <div class="checkbox">  
+            <label>
+              <input type="checkbox" id="newsite" value="NeedSite"> I need a website
+            </label>
+            <label>
+              <input type="checkbox" id="existing" value="NeedHelp"> I have a website that needs assistance
+            </label>
+            <label>
+              <input type="checkbox" id="rwdinfo" value="rwdinfo"> I would like more information on responsive web design
+            </label>             
+          </div>
+        </div>
+        <div class="form-group">
+          <label class="control-label">What can we help you with?</label>
+              <textarea class="form-control" name="questions" rows="3"></textarea>
+        </div>
+        <div class="form-group">
+          <div class="checkbox">
+            <label class="control-label"><strong>Best Contact Method:</strong></label>
+                <select class="form-control">
+                  <option>E-Mail</option>
+                  <option>Phone</option>
+                </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <button type="submit" class="btn btn-primary">Submit!</button>
+        </div>
+      </form>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>
